@@ -1,0 +1,1816 @@
+body{
+  font-family: Georgia, sans-serif;
+  margin: 0 auto;
+  line-height: 1.6em;
+  font-size: 17px;
+  background: white url("backgroundpic.JPG")no-repeat 50% 50%;
+}
+
+/*header*/
+header{
+  top:0px;
+  background-color: #242A2B;
+  margin: 0px auto;
+  height: 80px;
+  z-index: 2;
+  width: 100%;
+}
+
+.topheader {
+  width: 100%;
+}
+
+#headerText img {
+  display: inline;
+  float: left;
+  margin-right: 15px;
+  margin-top: -4px;
+  width: 45px;
+  height: 45px;
+  border-color: white;
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+.homelink {
+  text-decoration: none;
+  color: white;
+}
+
+#headerText {
+  display: inline-block;
+  float: left;
+  color: white;
+  bottom: 0px;
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 325px;
+}
+
+
+.titleText {
+  width: 325px;
+  font-size: 19px;
+  margin-top: 0px;
+  font-family: AvenirNext-Regular;
+  font-weight: normal;
+  line-height: 20px;
+  margin-right: 170px;
+}
+
+#titleText2 {
+  font-family: AvenirNext-Ultralight;
+  font-size: 15px;
+}
+
+/*menu bar*/
+.header {
+  width: 100%;
+}
+
+.menu {
+  display: block;
+  float: right;
+  background-color: #242A2B;
+  overflow: hidden;
+  padding: 0px;
+  padding-top: 10px;
+  /*margin-right: 50px;*/
+  line-height: normal;
+}
+
+.mobile-label {
+  display: none;
+}
+
+.menu .dropdown{
+  display:inline;
+  float: left;
+}
+
+.dropPage {
+  /*padding: 18px;*/
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 15px;
+  padding-right: 0px;
+  width: 105px;
+  background-color: #242A2B;
+  font-family: AvenirNext-Ultralight;
+  font-size: 12px;
+}
+
+.dropPage:hover {
+  color: #4473FF;
+  width: 105px;
+}
+
+.menu a, .menu p {
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 15px;
+  margin:0px;
+}
+
+/* hidden by default*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #242A2B;
+  font-family: AvenirNext-Ultralight;
+  box-shadow: 8px 8px 16px 0px #ccc;
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content a {
+  display: block;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 30px;
+  text-align: left;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+  color: #4473FF;
+}
+
+#donateA {
+  display: inline-block;
+  width: 152px;
+  float: left;
+}
+
+#headerdonatebutton {
+  background: #242A2B;
+  width: 110px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 8px;
+  border: 1.5px solid white;
+  font-family: AvenirNext-Medium;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  float: right;
+  margin-top: 13px;
+}
+
+#headerdonatebutton:hover {
+  background: #061E96;
+  width: 110px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 8px;
+  border: 1.5px solid white;
+  font-family: AvenirNext-Medium;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 0.1px;
+  text-decoration: none;
+  float: right;
+  margin-top: 13px;
+}
+
+/*footer styling */
+footer {
+  background-color: #242A2B;
+  font-family: AvenirNext-Ultralight;
+  color: white;
+  height: 250px;
+  font-size: 15px;
+}
+
+.facebook {
+  color: white;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+.facebook:hover {
+  color: #98A0A0;
+  margin-top: 15px;
+  margin-left: 100px;
+
+}
+h2 {
+  text-decoration: underline;
+}
+
+.rightSide a {
+  text-decoration: none;
+}
+
+#footerdonatebutton {
+  background: #242A2B;
+  width:150px;
+  height: 45px;
+  border-radius: 10px;
+  border: 2px solid white;
+  font-family: AvenirNext-Medium;
+  font-size: 22px;
+  color: white;
+  letter-spacing: 0.1px;
+  text-decoration: none;
+  }
+
+  #footerdonatebutton:hover {
+    background: #061E96;
+    height: 45px;
+    border-style:solid;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-family: AvenirNext-Medium;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+#footertitle {
+  font-family: AvenirNext-Regular;
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+  margin: auto;
+  font-size: 18px;
+  text-decoration: underline;
+  padding-top: 30px;
+}
+
+#footerWide {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.leftSide {
+  margin-top: 15px;
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 37%;
+  float: left;
+  line-height: 20px;
+  text-align: left;
+}
+
+.leftSide a {
+  color: white;
+}
+
+.Middle {
+  margin-top: 15px;
+  width: 29%;
+  float:left;
+  line-height: 20px;
+  text-align: left;
+}
+
+.rightSide {
+  margin-left: 0px;
+  margin-top: 15px;
+  width: 33%;
+  float: left;
+  line-height: 20px;
+  text-align: right;
+}
+
+#leftMiddle{
+  margin-top: 22px;
+}
+
+#bottomMiddle {
+  margin-top: 35px;
+}
+
+/*Lisa's pages*/
+.links {
+  color: #061E96;
+}
+
+.bookTitle {
+  text-decoration: underline;
+}
+
+/*New Design*/
+#backgroundpic {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: relative;
+  opacity: .85;
+}
+
+#backgroundpic1 {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+  opacity: .85;
+}
+
+#try1 {
+  position: absolute;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  margin-left: 462px;
+  margin-right: 462px;
+  margin-top: 250px;
+}
+
+.textContainer1 {
+  margin-top: 580px;
+  padding: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+  line-height: 40px;
+}
+
+.tryspace {
+  height: 100px;
+}
+
+.textContainer {
+  /*New Designmargin-top: 580px;*/
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-bottom: 25px;
+  background-color: white;
+}
+
+.textContainer2 {
+  /*New Designmargin-top: 580px;*/
+  margin-top: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-bottom: 20px;
+  background-color: #C1DDFC;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+.directorofServices{
+  text-align: center;
+  font-size: 19px;
+  margin-top: 50px;
+}
+
+/*Lisa's Mental Health First Aid Page*/
+.firstAidHeader {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.mentalHealthLeft {
+  width: 870px;
+  float: left;
+}
+
+.mentalHealthRight {
+  width: 350px;
+  float: right;
+  text-align: center;
+
+}
+
+.mentalhealthicon {
+  text-align: center;
+  margin-bottom: 90px;
+  margin-top: 30px;
+}
+
+
+/*Kate's CSS*/
+
+.pageTitle {
+  text-align: center;
+  color: black;
+  margin: 40px;
+  font-size: 26px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.columnText {
+  padding: 25px;
+  padding-bottom: 30px;
+  padding-top: 0px;
+  height:20px;
+  margin-bottom: 70px;
+  padding-bottom: 120px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  color: blue;
+}
+
+/*SOM*/
+.SOMmargin {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#SOMtextContainer {
+  padding-left: 175px;
+  padding-right: 175px;
+}
+
+.SOM {
+  float: left;
+  margin: 15px;
+  border: 1px solid black;
+  width: 240px;
+  height: 330px;
+}
+
+/*more resourcecs*/
+.resourceContainer {
+  width: 1100px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.resource{
+  margin: 50px auto;
+  float: left;
+}
+
+#nami {
+  margin-top: 80px;
+}
+
+#moneygeek {
+  margin-top: 50px;
+}
+
+.resource a {
+  margin: 50px;
+}
+
+.resource p {
+  font-weight: bold;
+  width: 250px;
+  top: 50%;
+  margin: 50px;
+}
+
+/*local mental health professionals*/
+.toggleList{
+  display: none;
+}
+
+.toggleList li {
+  padding: 5px;
+  list-style-type: none;
+}
+
+.toggleTitle {
+  border: 2px solid lightgray;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.toggleTitle:hover {
+  cursor: pointer;
+}
+
+.toggleTitle img {
+  float: right;
+}
+
+#missionStatement{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #C1DDFC;
+  margin-bottom: 50px;
+}
+
+#missionStatementHeader {
+  text-align: center;
+  font-size: 26px;
+}
+
+.aboutUsImages{
+  float: left;
+  border: 1px solid black;
+  width: 33%;
+  height: 360px;
+  filter: brightness(80%);
+}
+
+.aboutUsImages:hover {
+  float: left;
+  border: 1px solid black;
+  width: 33%;
+  height: 360px;
+  filter: brightness(100%);
+}
+
+.aboutUsImages2 {
+  float: left;
+  border: 1px solid black;
+  width: 33%;
+  height: 360px;
+  margin-bottom: 75px;
+  filter: brightness(80%);
+}
+
+.aboutUsImages2:hover {
+  float: left;
+  border: 1px solid black;
+  width: 33%;
+  height: 360px;
+  margin-bottom: 75px;
+  filter: brightness(100%);
+}
+
+#lastAboutUs{
+  margin-top: 50px;
+}
+
+/*Staff Pages */
+.staffPhoto {
+  margin-right: 25px;
+  border: 1px black solid;
+  width: 400px;
+  float: left;
+}
+
+.WhoWeAreArticle {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#fullfillingMission {
+  margin: 0 auto;
+  width: 840px;
+}
+
+.missionImages{
+  float: left;
+  padding: 10px;
+  width: 260px;
+}
+
+.missionImages a, .missionImages img{
+  width: 260px;
+  display: block;
+  margin: 0 auto;
+}
+
+.description {
+  text-align: center;
+  text-transform:uppercase;
+  font-weight: bold;
+}
+
+#jenkinsCenter .caption{
+  font-size: 11px;
+}
+
+.missionTitle {
+  text-align: center;
+  color: black;
+  padding: 40px;
+  font-size: 26px;
+  margin-bottom: 0px;
+}
+
+.programsLinks {
+ position: absolute;
+ top: 300px;
+ left: 125px;
+ color: white;
+ text-decoration: underline;
+ font-size: 35px;
+}
+
+#Bell {
+
+}
+
+.MakingBellFigure {
+  width: 450px;
+  text-align: center;
+  font-size: 14px;
+  color: #242A2B;
+  float: left;
+}
+
+#aboutTheBell{
+  float: left;
+}
+
+.juan {
+  margin-top: 60px;
+  line-height: 30px;
+}
+
+.one {
+  line-height: 30px;
+}
+
+.two {
+  margin-top: 100px;
+  line-height: 30px;
+}
+
+.bellPhotos {
+  float: left;
+  border: solid black 1px;
+  width: 450px;
+}
+
+.bellFigure {
+  width: 450px;
+  text-align: center;
+  font-size: 14px;
+  color: #242A2B;
+  float: left;
+}
+
+/*Board of Directors styling */
+#DirContent {
+
+}
+
+.bio{
+  width: 75%;
+  float: left;
+  display: inline;
+}
+
+#DirContent .name {
+  width: 75%;
+  float: left;
+  display: inline;
+}
+
+#DirContent .space {
+  height: 350px;
+}
+
+#Wolfanger p {
+  width: auto;
+  padding-bottom: 20px;
+}
+
+
+/*Self Assessment*/
+#continuebutton {
+  background: white;
+  width:175px;
+  height: 50px;
+  border-style:solid;
+  border-radius: 10px;
+  border: 2px solid #061E96;
+  font-family: AvenirNext-DemiBold;
+  font-size: 26px;
+  color: #061E96;
+  letter-spacing: 0.1px;
+  text-decoration: none;
+}
+
+  #continuebutton:hover {
+    background: #061E96;
+    width: 175px;
+    height: 50px;
+    border-style:solid;
+    border-radius: 10px;
+    border: 2px solid #061E96;
+    font-family: AvenirNext-DemiBold;
+    font-size: 26px;
+    color: white;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+
+/*styling for FROM MHANYS */
+
+.MHANYSicon {
+  text-align: center;
+}
+
+.MHANYSlogo {
+  width: 200px;
+}
+
+#fromMHANYSContent iframe{
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+#FromMHANYSArticle .final {
+  padding-top: 40px;
+}
+
+/*getInvolved styling */
+
+#getInvolvedArticle .title {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#getInvolvedContent ul, .para {
+  padding-bottom: 20px;
+}
+
+#getInvolvedContent .resp {
+  padding-top: 30px;
+}
+
+#getInvolvedContent .pic {
+  width: 377px;
+  float: right;
+  padding-left: 15px;
+}
+
+/*contactUs styling */
+#map {
+  width: 500px;
+  height: 400px;
+  float: right;
+  margin-right: 50px;
+}
+
+#contactUsContent {
+
+}
+
+#contactUsContent .space{
+  height: 200px;
+}
+
+#contactUsContent #space {
+  height: 200px;
+}
+
+/*IN NORMAL SITE
+contact form styling*/
+
+#form {
+float: right;
+margin-top: 20px;
+margin-right: 50px;
+padding: 10px;
+border:  2px solid black;
+border-radius: 2px;
+width: 500px;
+}
+
+#form div {
+padding: 10px;
+}
+
+#email {
+width: 259px;
+}
+
+
+#message {
+width: 400px;
+height: 100px;
+vertical-align: top;
+}
+
+#submit {
+}
+
+.errorContainer {
+border: 1px solid red;
+font-size: 11px;
+text-align: center;
+padding: 0px;
+border-radius: 25px;
+display: inline-block;
+text-transform: uppercase;
+font-weight: bold;
+margin: 20px;
+background-color: lightpink;
+}
+
+.hiddenError {
+display: none;
+}
+
+/*Staff styling */
+
+#staffContent .bio, .name{
+  width: 75%;
+  float: left;
+  display: inline;
+}
+
+.staffImage {
+  width: 200px;
+  height: 280px;
+  margin-right: 25px;
+
+  padding: 0px;
+  border: 1px black solid;
+  float: left;
+  display: inline;
+}
+
+
+#staffContent .space{
+  height: 350px;
+}
+
+
+
+/* Types of Professional Styling */
+#typesOfProfContent {
+
+}
+
+#typesOfProfContent .title{
+  font-weight: bold;
+  text-decoration: underline;
+  padding-top: 30px;
+}
+
+/*Donate styling */
+#donorsContent {
+}
+
+#donorsContent .imp {
+  font-weight: bold;
+}
+
+#donorsContent .name{
+  width: 180px;
+}
+
+#donorsContent figure {
+  float: left;
+}
+
+#donorsContent .space {
+  height: 50px;
+}
+
+#donorsContent .DonateButton {
+  width: 400px;
+  height: 200px;
+  color: #061E96;
+  background-color: #E0EFF6;
+  font-size: 40px;
+  border-radius: 25px;
+}
+
+#donorsContent .DSpace2 {
+
+}
+
+#donorsContent a {
+  text-decoration: none;
+}
+
+#donorsDonateButton {
+  text-align: center;
+}
+
+#donatebutton {
+  background: #FFFFFF;
+  width: 375px;
+  height: 130px;
+  border-style:solid;
+  border-color:#061E96;
+  border-radius: 10px;
+  border: 4px solid;
+  font-family: AvenirNext-DemiBold;
+  font-size: 60px;
+  color: #061E96;
+  letter-spacing: 0.1px;
+  margin-top: 25px;
+}
+
+#donatebutton:hover {
+  background: #061E96;
+  cursor: pointer;
+  border-color:#061E96;
+  color: white;
+}
+
+@media only screen and (max-width: 1118px){
+  #headerText {
+    display: block;
+  }
+
+  .menu {
+    display: block;
+    width: 100%;
+    float: left;
+    background-color: #242A2B;
+    overflow: hidden;
+    padding: 0px;
+    padding-top: 10px;
+    line-height: normal;
+    padding-left: 20px;
+  }
+
+
+  .dropPage {
+    /*padding: 18px;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*padding-left: 30px;*/
+    padding-right: 0px;
+    width: 120px;
+    background-color: #242A2B;
+    font-family: AvenirNext-Ultralight;
+    font-size: 12px;
+  }
+  #headerdonatebutton {
+    margin-top: 5px;
+  }
+
+  #headerdonatebutton:hover {
+    margin-top: 5px;
+  }
+}
+
+
+/*mobile responsive css*/
+@media only screen and (max-width: 749px) {
+  body{
+    width: 100%;
+  }
+
+  header{
+    width: inherit;
+    padding-top:15px;
+    height: 120px;
+  }
+
+  #headerText img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .homelink {
+  }
+
+  #headerText {
+    width: 300px;
+    margin-right: 0px;
+    margin: 0px auto;
+    padding-bottom: 0px;
+    text-align: center;
+    float: none;
+    display: block;
+  }
+
+  #programsContent {
+    margin-left: 0px;
+  }
+
+  .titleText {
+    display: inline-block;
+    float: none;
+    width: 300px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #titleText2 {
+
+  }
+
+/*menu bar*/
+  .menu {
+    position: static;
+    width: inherit;
+    display: none;
+    padding: 0px;
+  }
+
+  .menu .dropdown{
+    float: none;
+    margin-bottom: 1px;
+    width: inherit;
+    display: block;
+    background-color: #242A2B;
+  }
+
+  .menu p{
+    padding-bottom: 5px;
+    width: inherit;
+  }
+
+  .dropPage {
+    width: inherit;
+    padding-bottom: 5px;
+  }
+
+  .dropPageException {
+    width: inherit;
+  }
+
+  .dropPageException:hover {
+    width: inherit;
+    cursor: pointer;
+  }
+
+  .dropPage:hover {
+    width: inherit;
+  }
+
+  .menu a, .menu p {
+    display: block;
+    width: inherit;
+    background-color: #242A2B;
+  }
+
+  .mobile-label {
+    display: block;
+    background-color: #242A2B;
+    height: 40px;
+    width: 100%;
+  }
+
+  .mobile-label p{
+    opacity: 0;
+  }
+
+  .mobile-label img {
+    display: inline-block;
+    float: right;
+    height: 26px;
+    margin: 6px;
+    margin-right: 0px;
+    padding-right: 6px;
+
+  }
+
+  .drop-menu {
+    display: block;
+    padding: 0px;
+    width: inherit;
+    background-color: #242A2B;
+    margin: 0 auto;
+    line-height: normal;
+    color:white;
+    padding-bottom: 20px;
+  }
+
+  .dropdown-content {
+    display: block;
+    position: static;
+    width: inherit;
+    box-shadow: none;
+    text-align: left;
+    margin-left: 0px;
+  }
+
+  .dropdown-content a {
+    display: block;
+    margin-left: 20px;
+    word-wrap: normal;
+    width: inherit;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+      display: block;
+      width: inherit;
+  }
+
+  .dropdown-content a:hover {
+    width: inherit;
+  }
+
+
+    #donateA {
+      margin: 0 auto;
+      display: block;
+      float: none;
+    }
+
+    #donateA a{
+      text-decoration: none;
+    }
+
+    #headerdonatebutton {
+      display: block;
+      margin:5px auto;
+      margin-bottom: 15px;
+      float: none;
+      text-decoration: none;
+    }
+
+    #headerdonatebutton:hover {
+      display: block;
+      margin:5px auto;
+      margin-bottom: 15px;
+      float: none;
+      text-decoration: none;
+    }
+
+  #map {
+    width: 280px;
+    height: 190px;
+    float: right;
+    margin-right: 50px;
+  }
+
+  /*footer styling */
+  footer {
+    height: 575px;
+    margin-top: 50px;
+    font-size: 17px;
+    width: 100%;
+  }
+
+  .facebook {
+    color: white;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+  }
+
+  .facebook:hover {
+    color: #98A0A0;
+    margin-top: 15px;
+    margin: 0px auto;
+    margin-right: 100px;
+    margin-left: 95px;
+  }
+
+  .rightSide a {
+    text-decoration: none;
+  }
+
+  #footertitle {
+    text-align: left;
+    color: white;
+    padding-top: 25px;
+    margin: 0px;
+    font-size: 22px;
+    text-decoration: underline;
+    width: inherit;
+  }
+
+  #footerWide {
+    width: inherit;
+    margin: 0 auto;
+  }
+
+.leftSide, .Middle, .rightSide {
+    margin-left: 10px;
+    float: none;
+    line-height: 17px;
+    margin-top: 5px;
+    text-align: left;
+
+  }
+
+  .rightSide input, .rightSide a{
+    width: 49%;
+    float: left;
+  }
+
+  #bottomLeft{
+    margin-top: 0px;
+  }
+
+  #bottomMiddle {
+    margin-top: 0px;
+  }
+
+  /*Lisa's pages*/
+  .links {
+    color: #061E96;
+  }
+
+  .textContainer {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+  }
+
+  .subtitle {
+  }
+
+  /*Lisa's Mental Health First Aid Page*/
+  .firstAidHeader {
+  }
+
+  .mentalhealthicon {
+  }
+
+  /*Kate's CSS*/
+
+  .pageTitle {
+
+  }
+
+  .column {
+    float: none;
+    width: inherit;
+  }
+
+  .columnText {
+    padding: 25px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    height: auto;
+    margin: 10px;
+    padding-bottom: 120px;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  .larger {
+    font-size: 18px;
+  }
+
+  .italics {
+    font-style: italic;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  a {
+  }
+
+  /*SOM*/
+
+  #SOMtextContainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  .SOMmargin {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .SOM {
+    float: none;
+    height: 200px;
+    width: 120px;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+
+  /*more resourcecs*/
+  .resourceContainer {
+    width: inherit;
+    margin: 0 auto;
+  }
+
+  .resource{
+    width: 250px;
+    margin: 30px auto;
+    float: none;
+  }
+
+  #nami {
+    margin-top: 0px;
+  }
+
+  #moneygeek {
+    margin-top: 0px;
+  }
+
+  .resource a {
+    margin: 0px;
+  }
+
+  .resource p {
+    font-weight: bold;
+    width: 250px;
+    top: 0;
+    margin: 30px;
+  }
+
+  /*local mental health professionals*/
+  .toggleList{
+  }
+
+  .toggleList li {
+
+  }
+
+  .toggleTitle {
+    border: 2px solid lightgray;
+    padding: 10px;
+    text-decoration: none;
+    height: auto;
+  }
+
+  .toggleTitle:hover {
+    cursor: pointer;
+  }
+
+  .toggleTitle img {
+    float: right;
+    display: inline;
+    vertical-align: middle;
+  }
+
+  /*Karen's Sytling*/
+  /*across all pages */
+  .TITLE {
+    font-size: 30px;
+    text-align: center;
+  }
+  /*About Us Styling */
+
+  #missionStatement{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #C1DDFC;
+    margin-bottom: 50px;
+  }
+
+  #missionStatementHeader {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .textContainer2 {
+    /*New Designmargin-top: 580px;*/
+    margin: 5px;
+    padding: 0px;
+    margin-bottom: 20px;
+    background-color: #C1DDFC;
+    text-align: center;
+  }
+
+  .aboutUsImages{
+    float: left;
+    border: 0px;
+    width: 100%;
+    height: 270px;
+    filter: brightness(80%);
+  }
+
+  .aboutUsImages:hover {
+    float: left;
+    border: 0px;
+    width: 100%;
+    height: 270px;
+    filter: brightness(100%);
+  }
+
+  .aboutUsImages2 {
+    float: left;
+    border: 0px;
+    width: 100%;
+    height: 270px;
+    margin-bottom: 0px;
+    filter: brightness(80%);
+  }
+
+  .aboutUsImages2:hover {
+    float: left;
+    border: 0px;
+    width: 100%;
+    height: 270px;
+    margin-bottom: 0px;
+    filter: brightness(100%);
+  }
+
+  .staffPhoto {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    border: 1px black solid;
+    width:100%;
+    float: none;
+  }
+
+  .WhoWeAreArticle {
+    padding-top: 0px;
+    margin-top: 0px;
+    width: inherit;
+  }
+
+  #fullfillingMission {
+    margin: 0 auto;
+    width: inherit;
+  }
+
+  .missionImages{
+    float: none;
+    margin: 0 auto;
+  }
+
+  .missionImages a, .missionImages img{
+
+  }
+
+  .description {
+  }
+
+  #jenkinsCenter .caption{
+
+    text-align: center;
+  }
+
+  #Bell {
+
+  }
+
+  #Bell img {
+    padding-bottom: 0px;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .MakingBellFigure {
+    width: inherit;
+    float: none;
+    margin: 0 auto;
+  }
+  .MakingBellFigure figcaption{
+    float: none;
+    display: block;
+  }
+
+  #aboutTheBell{
+    float: none;
+  }
+
+  #makingBell {
+    float: none;
+  }
+
+  .juan {
+    padding-top: 0px;
+  }
+  .one {
+    padding-bottom: 0px;
+  }
+
+  #BellImage {
+    float: none;
+    padding-right: 0px;
+  }
+
+  .two {
+    padding-top: 0px;
+  }
+
+  .bellFigure {
+    width: inherit;
+    margin: 0 auto;
+    float: none;
+  }
+
+  /*mobile*/
+  /*Board of Directors styling */
+  #DirContent {
+
+  }
+
+  #DirContent img {
+    width: 200px;
+    float: none;
+    padding-right: 0px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #DirContent .bio{
+    padding-bottom: 0px;
+    width: inherit;
+    float: none;
+  }
+
+  #DirContent .name {
+    width: inherit;
+    float: none;
+  }
+
+#DirContent .space {
+  height: 60px;
+}
+
+  #Wolfanger p {
+    width: auto;
+    padding-bottom: 0px;
+  }
+
+
+  /*Self Assessment*/
+  #continuebutton {
+    background: white;
+    width:175px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #061E96;
+    font-family: AvenirNext-DemiBold;
+    font-size: 26px;
+    color: #061E96;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+  }
+
+    #continuebutton:hover {
+      background: #061E96;
+      border-radius: 10px;
+      border: 2px solid #061E96;
+      font-family: AvenirNext-DemiBold;
+      font-size: 26px;
+      color: white;
+      letter-spacing: 0.1px;
+      text-decoration: none;
+      cursor: pointer;
+      }
+
+
+  /*styling for FROM MHANYS */
+  #fromMHANYSContent{
+    padding-bottom: 0px;
+  }
+
+  .MHANYSicon {
+    text-align: center;
+  }
+
+  .MHANYSlogo {
+  }
+
+  .intro {
+  }
+  #fromMHANYSContent iframe{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    padding-bottom: 10px;
+  }
+
+  #FromMHANYSArticle {
+  }
+
+  #FromMHANYSArticle .final {
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  /*getInvolved sytling */
+  #getInvolvedContent {
+    padding-bottom: 0px;
+  }
+
+  #getInvolvedArticle .title {
+
+  }
+  #getInvolvedArticle {
+  }
+
+  #getInvolvedContent ul, .para {
+    padding-bottom: 0px;
+  }
+
+  #getInvolvedContent .resp {
+    padding-top: 0px;
+  }
+
+  #getInvolvedContent .pic {
+    width: 300px;
+    float: none;
+    padding-left: 0px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /*contactUs styling */
+  #contactUsContent {
+
+  }
+
+  #contactUsContent .space{
+    height: 0px;
+  }
+
+  #contactUsContent .info {
+  }
+
+  #contactUsContent #space {
+    height: 0px;
+  }
+
+  /*Staff styling */
+
+  /*Staff styling - from above*/
+
+  #staffContent .bio, .name{
+    width: 75%;
+    float: left;
+    display: inline;
+  }
+
+  .staffImage {
+    width: 200px;
+    height: 280px;
+    margin-right: 25px;
+    padding: 0px;
+    border: 1px black solid;
+    float: left;
+    display: inline;
+  }
+
+  #staffContent #financeSpace {
+    height: 250px;
+  }
+
+  #staffContent #jenkinsSpace {
+    height: 200px;
+  }
+
+
+
+  #staffContent .space{
+    height: 0px;
+  }
+  #staffContent {
+
+  }
+/*Types of Therapy*/
+  .forMoreInfo{
+  text-align: center;
+}
+
+  /* Types of Professional Styling */
+  #typesOfProfContent {
+
+  }
+
+  #typesOfProfContent .title{
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 30px;
+  }
+
+  /*Donate styling */
+  #donorsContent {
+  }
+
+  #donorsContent article {
+  }
+
+  #donorsContent .imp {
+  }
+
+  #donorsContent img{
+    margin: 0 auto;
+  }
+
+  #donorsContent .name{
+    width: 180px;
+  }
+
+  #donorsContent .DSpace1 {
+    height: 0px;;
+  }
+
+  #donorsContent .DSpace2 {
+  }
+
+  #footerdonatebutton {
+    background: white;
+    width:150px;
+    height: 45px;
+    border-style:solid;
+    border-radius: 10px;
+    border: 2px solid #061E96;
+    font-family: AvenirNext-DemiBold;
+    font-size: 22px;
+    color: #061E96;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    }
+
+    #footerdonatebutton:hover {
+      background: #061E96;
+      height: 45px;
+      border-style:solid;
+      border-radius: 10px;
+      border: 2px solid white;
+      font-family: AvenirNext-DemiBold;
+      font-size: 22px;
+      color: white;
+      letter-spacing: 0.1px;
+      text-decoration: none;
+      }
+
+  #donatebutton {
+    background: #FFFFFF;
+    width: 150px;
+    height: 45px;
+    border-style:solid;
+    border-color:#061E96;
+    border-radius: 10px;
+    border: 2px solid;
+    font-family: AvenirNext-DemiBold;
+    font-size: 22px;
+    color: #061E96;
+    letter-spacing: 0.1px;
+    margin: 0 auto;
+  }
+
+  #donatebutton:hover {
+    cursor: pointer;
+
+  }
+
+  #map {
+    float: none;
+  }
+
+  /*contact form styling*/
+
+    #form {
+      float: none;
+      padding: 10px;
+      border: 2px solid black;
+      border-radius: 2px;
+      width: inherit;
+      margin: 0 auto;
+    }
+
+    #form div {
+      padding: 10px;
+    }
+
+    #name{
+      width: 256px;
+    }
+
+    #email {
+      width: 259px;
+    }
+
+
+    #message {
+      display: block;
+      width: 100%;
+      height: 100px;
+      vertical-align: top;
+    }
+
+    #submit {
+    }
+
+    .errorContainer {
+
+    }
+
+    .hiddenError {
+    }
+
+}
