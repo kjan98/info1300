@@ -1,0 +1,194 @@
+body {
+  margin: 0 auto;
+  font-family:sans-serif;
+  background-image: url("../images/Apple.jpg");
+  background-size: 100%;
+
+  width: 75%;
+}
+
+#title {
+  width: 100%;
+}
+
+#menu {
+  background-color: black;
+  text-align: center;
+}
+#menu a {
+  color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+#menu a:hover{
+color: #bf80ff;
+}
+
+#space {
+  height: 130px;
+}
+
+h1{
+  color: #01b864;
+  text-align: center;
+}
+
+p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.directions {
+  margin-left: 10%;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+figcaption{
+  text-align: center;
+  font-style: italic;
+}
+
+div{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+div a, li{
+  font-size: 20px;
+}
+
+img{
+  padding-top: 10px;
+}
+
+li{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+form {
+  margin: 0 auto;
+  width: 75%;
+  padding: 1.5em;
+  border: 3px solid black;
+}
+
+.input {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+
+.input3{
+  padding-top: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+}
+footer a:hover{
+  color: #bf80ff;
+}
+
+.post {
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+#content {
+  margin-top: 0px;
+  padding-top: 1px;
+  background-color: white;
+}
+
+.schedule1 {
+  width: 50%;
+}
+.schedule2{
+  width: 70%;
+}
+.disclaimer {
+  font-size: 16px;
+}
+
+/*Error Styling */
+.errorContainer {
+  margin-left: 100px;
+  border: 1px solid red;
+  padding: 5px;
+  color: red;
+}
+.hiddenError {
+  display: none;
+}
+
+
+
+@media only screen and (max-width:480px) {
+#title {
+  width: 100%;
+}
+
+p {
+  font-size: 14px;
+  margin-left: auto;
+}
+
+div a,li {
+  font-size: 14px;
+}
+
+figcaption {
+  font-size: 9px;
+  width: 99%
+
+}
+
+#menu a {
+  color: white;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+h2 {
+  font-size: 17px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110%;
+}
+
+.schedule1  {
+  width: 80%;
+}
+.schedule2{
+  width: 115%;
+}
+
+}
