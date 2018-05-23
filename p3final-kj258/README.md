@@ -1,3 +1,4 @@
+### README ###
 Learn more about the annual Ithaca Apple Harvest Festival through this (unofficial) website! 
 This website provides the performance schedules, parking and lodging information, and the 
 various goodies you can chow down on! The website is responsive, so whether you're looking 
