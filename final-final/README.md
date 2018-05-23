@@ -15,7 +15,7 @@ Here are some snapshots of the site!
 
 ![](readme_imgs/resources.png)
 
-To fully interact with the site, clone this repository. If you have atom, right click on the index.php page and scroll down until you see the PHP: Start Server option. Click it. If you don't have atom, you can start the php server on your terminal.
+To fully interact with the site, clone this repository. Then unzip the images folder. If you have atom, right click on the index.php page and scroll down until you see the PHP: Start Server option. Click it. If you don't have atom, you can start the php server on your terminal.
 
 ```
 cd path/to/your/app
